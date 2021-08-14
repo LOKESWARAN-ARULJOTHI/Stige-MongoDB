@@ -1,21 +1,13 @@
 ```bash
-/proc/self/
-|-- attr
-|-- cwd -> /proc
-|-- fd
-|   `-- 3 -> /proc/15589/fd
-|-- fdinfo
-|-- net
-|   |-- dev_snmp6
-|   |-- netfilter
-|   |-- rpc
-|   |   |-- auth.rpcsec.context
-|   |   |-- auth.rpcsec.init
-|   |   |-- auth.unix.gid
-|   |   |-- auth.unix.ip
-|   |   |-- nfs4.idtoname
-|   |   |-- nfs4.nametoid
-|   |   |-- nfsd.export
-|   |   `-- nfsd.fh
-|   `-- stat
+.
+├── dir1
+│   ├── file11.ext
+│   └── file12.ext
+├── dir2
+│   ├── file21.ext
+│   ├── file22.ext
+│   └── file23.ext
+├── dir3
+├── file_in_root.ext
+└── README.md
 ```
